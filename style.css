@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 1rem;
+}
+
+ul {
+    text-align:center ;
+} 
+
+li {
+
+    display: inline-block;
+    margin: 1rem;
+    background-color: antiquewhite;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+
+}
+
+h1:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+h1:visited{
+    color: yellowgreen;
+    opacity: 50%;
+}
+
+li:hover{
+    color: red;
+    cursor: pointer;
+    background-color: black;
+}
+
+li:active{
+    color: rgb(255, 0, 242);
+    cursor: pointer;
+}
+
+
+
